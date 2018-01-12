@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ef5255687a72a92e0fcaa51c0b2237a",
+    "content-hash": "98bbb170c95027a5a9ec5bfeb6b52e6d",
     "packages": [
         {
             "name": "twbs/bootstrap",
-            "version": "4.0.0-alpha.6",
+            "version": "v3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec"
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/65ffb1c3b6e94440812a2e228cb8e8be512652ec",
-                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "shasum": ""
             },
             "replace": {
@@ -44,26 +44,24 @@
                 }
             ],
             "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "https://getbootstrap.com",
+            "homepage": "http://getbootstrap.com",
             "keywords": [
                 "JS",
                 "css",
                 "framework",
                 "front-end",
+                "less",
                 "mobile-first",
                 "responsive",
-                "sass",
                 "web"
             ],
-            "time": "2017-01-06T16:41:52+00:00"
+            "time": "2016-07-25T15:51:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "twbs/bootstrap": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
