@@ -7,14 +7,8 @@
     "content-hash": "98bbb170c95027a5a9ec5bfeb6b52e6d",
     "packages": [
         {
-            "name": "twbs/bootstrap",
-            "version": "v3.3.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
-            },
-            "dist": {
+
+            "dist":
                 "type": "zip",
                 "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
