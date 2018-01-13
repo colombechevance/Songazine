@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main">
+        <main role="main">
 		<!-- section -->
 		<section>
 
@@ -11,8 +11,8 @@
 			<?php get_template_part('pagination'); ?>
 
 		</section>
-		<!-- /section -->
-	</main>
+
+	    </main>
 
 <?php get_sidebar(); ?>
 
