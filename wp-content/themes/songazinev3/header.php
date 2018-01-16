@@ -23,7 +23,7 @@
 
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
-							<img src="img/logo.png" alt="Logo" class="logo-img">
+                            <img class="logomoyen" src="<?php echo get_bloginfo('template_url') ?>/img/"/>
 						</a>
 					</div>
 

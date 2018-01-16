@@ -74,8 +74,6 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width:1280px;
-	width:95%;
 	margin:0 auto;
 	position:relative;
 }
@@ -100,16 +98,18 @@ input:focus {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;;
     bottom: 0;
     width: 100%;
     height: 60px;
     background: #000000;
     color: #FFFFFF;
-    display: inline-block;
+    display : table-row;
+    text-align: center;
 }
 
 .contact {
+    display: inline-block;
     text-align: center;
     padding-top: 20px;
     text-transform: uppercase;
@@ -117,20 +117,57 @@ input:focus {
 
 .contact a {
     color: white;
-    border: 1px grey solid;
-    background-color: #33334d;
+    border: 0px grey solid;
+    background-color: #2D241E   ;
     border-radius:15px;
     padding:8px 16px;
 }
 
 
-
-
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+/*--Contact */
+.contact-section {
+    background-color: white;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+.titresongazine {
+    text-align: center;
+}
+
+.logomoyen {
+    height: 45px;
+    padding-left: 140px;
+}
+
+.form-control {
+    background-color: #4c4c4d;
+    text-transform: uppercase;
+}
+
+.logoreseaux {
+    height: 34px;
+    padding-left: 45px;
+}
+
+.section-grey {
+    background-color: #D3D3D3;
+
+}
 
 
+
+/*--Dossier */
+.dossier {
+    width: 100%;
+    height: auto;
+    float: left;
+}
 
 /*------------------------------------*\
     IMAGES
